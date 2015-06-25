@@ -1,0 +1,308 @@
+[
+	{
+		"alt": "Actor",
+		"icon": "resources/images/architecture/meditations/icons/actor_icon.jpg",
+		"image": "resources/images/architecture/meditations/actor.jpg",
+		"group": "Meditations",
+		"context": "<strong>Studio:</strong> ARCH 312<br><strong>Professor:</strong> J. Bard<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "An actor against a digital wall."
+	},
+	{
+		"alt": "Geometry",
+		"icon": "resources/images/architecture/meditations/icons/geometry_icon.jpg",
+		"image": "resources/images/architecture/meditations/geometry.jpg",
+		"group": "Meditations",
+		"context": "<strong>Studio:</strong> ARCH 202<br><strong>Professor:</strong> K. Quinn<br><strong>Year:</strong> Winter 2010<br>",
+		"caption": "Early explorations in orthographic projection and lineweights to describe object behavior."
+	},
+	{
+		"alt": "Isometry",
+		"icon": "resources/images/architecture/meditations/icons/isometry_icon.jpg",
+		"image": "resources/images/architecture/meditations/isometry.jpg",
+		"group": "Meditations",
+		"context": "<strong>Studio:</strong> ARCH 202<br><strong>Professor:</strong> K. Quinn<br><strong>Year:</strong> Winter 2010<br>",
+		"caption": "Orthographic projections onto an isometric axis to describe object composition and mechanics."
+	},
+	{
+		"alt": "Projections",
+		"icon": "resources/images/architecture/meditations/icons/projections_icon.jpg",
+		"image": "resources/images/architecture/meditations/projections.jpg",
+		"group": "Meditations",
+		"context": "<strong>Studio:</strong> ARCH 218<br><strong>Professor:</strong> D. Gilpin<br><strong>Year:</strong> Winter 2010<br>",
+		"caption": "Translations from text (Calvino, 'Invisible Cities: Hypathia')."
+	},
+	{
+		"alt": "Detroit Library: Concept Mapping",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_concept_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_concept_mapping.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "Mapping of Woodward Avenue's 'Thickness' from Hart Plaza to Highland Park. Thickness describes the visceral experiences affected by adjacencies (whether residential, commericial, vacant, condemned, abandoned...) and dominating hegemonies."
+	},
+	{
+		"alt": "Detroit Library: Site Model",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_site_model_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_site_model.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "Interpreting the mapping to develop the massing situated to its site. The site via Woodward Ave has a thin Thickness affected by a patchy residential area and a small commercial front. Just outside of the Detroit Empowerment Zone, the site is loosely suspendeded with hegemonies channeled through historicism (Highland Park Historic District) and religion (cathedrals)."
+	},
+	{
+		"alt": "Detroit Library: Typologies",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_typologies_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_library_typologies.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "Creating a catalog of different library typologies through material compositions resembling plans and sections. Discerned the following (grouped in columns from left to right): of 'specificity', of 'store front', of 'stereotype', of 'sanctuary', of 'showcase', of 'security'."
+	},
+	{
+		"alt": "Detroit Library: Typology Model",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_typology_model_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_typology_model.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "Translating the library typologies of 'store front' and 'sanctuary' to assist the formal study. Fitting the language of site (largely faith-based and a missing commercial front), this massing seeks to provide an alternative place to seek refuge and communal activities while offering a storefront for books."
+	},
+	{
+		"alt": "Detroit Library: Vignettes",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_vignettes_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_vignettes.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "Vignettes to delineate the procession."
+	},
+	{
+		"alt": "Detroit Library: Model",
+		"icon": "resources/images/architecture/narratives/detroit_library/icons/ug2_model_icon.jpg",
+		"image": "resources/images/architecture/narratives/detroit_library/ug2_model.jpg",
+		"group": "Detroit Library",
+		"context" : "<strong>Studio:</strong> ARCH 322<br><strong>Professor:</strong> E. Donnelly<br><strong>Year:</strong> Winter 2011<br>",
+		"caption": "The proposal revolves around an atrium containing communal programs: modular seating and a refectory. Book stacks are displayed in front and parallel to Woodward Ave. Spaces upon ascension become more privatized and eventually cumlinates with study carrels to the south with a reflection room tucked underneath. Both are contained in the south capsule away from the communal area. Cantilevers with respect to Woodward Ave and the parking lot extends the conversation of this library as a bus stop."
+	},
+	{
+		"alt": "Detroit Electronic Music Institute: Site Techniques",
+		"icon": "resources/images/architecture/narratives/DEMI/icons/ug3_site_techniques_icon.jpg",
+		"image": "resources/images/architecture/narratives/DEMI/ug3_site_techniques.jpg",
+		"group": "DEMI",
+		"context" : "<strong>Studio:</strong> ARCH 432<br><strong>Professor:</strong> E. Abrons<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "Abstracted fabric details to meditate on lines and ultimately developing a toolkit of techniques to engage the site: collide, compress, extend, and densify."
+	},
+	{
+		"alt": "Detroit Electronic Music Institute: Site Context",
+		"icon": "resources/images/architecture/narratives/DEMI/icons/ug3_site_context_icon.jpg",
+		"image": "resources/images/architecture/narratives/DEMI/ug3_site_context.jpg",
+		"group": "DEMI",
+		"context" : "<strong>Studio:</strong> ARCH 432<br><strong>Professor:</strong> E. Abrons<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "Studying local grassroot movements (think Heidelberg and Power House Productions) and acts of conservation (think historic sites), demolition is not in their vocabulary. Therefore, buildings on-site are preserved. Analyzing the language of the site. The notion of frontality is flipped (front yards are fenced off). Occupants enter their homes via provisional roads. Traffic is non-existant across the John R back-road. The site seems to face away from Woodward Ave."
+	},
+	{
+		"alt": "Detroit Electronic Music Institute: Site Plan",
+		"icon": "resources/images/architecture/narratives/DEMI/icons/ug3_site_plan_icon.jpg",
+		"image": "resources/images/architecture/narratives/DEMI/ug3_site_plan.jpg",
+		"group": "DEMI",
+		"context" : "<strong>Studio:</strong> ARCH 432<br><strong>Professor:</strong> E. Abrons<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "The program proposal infills the pockets. Program placement is first determined by situating large-scale venues and residential areas at polar ends of the site. Provisional roads are expanded to accommodate internal traffic flow."
+	},
+	{
+		"alt": "Detroit Electronic Music Institute: Sections",
+		"icon": "resources/images/architecture/narratives/DEMI/icons/ug3_sections_icon.jpg",
+		"image": "resources/images/architecture/narratives/DEMI/ug3_section.jpg",
+		"group": "DEMI",
+		"context" : "<strong>Studio:</strong> ARCH 432<br><strong>Professor:</strong> E. Abrons<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "Serpentine forms were developed to project, or contain, programs. The form creates a gesture that faces away from the buildings on-site."
+	},
+	{
+		"alt": "Detroit Electronic Music Institute: Model",
+		"icon": "resources/images/architecture/narratives/DEMI/icons/ug3_model_icon.jpg",
+		"image": "resources/images/architecture/narratives/DEMI/ug3_model.jpg",
+		"group": "DEMI",
+		"context" : "<strong>Studio:</strong> ARCH 432<br><strong>Professor:</strong> E. Abrons<br><strong>Year:</strong> Fall 2011<br>",
+		"caption": "The architecture is a result of investigating frontality and projection. The residents access their homes through their backdoors. Translating this behavior, entry of the proposed architecture is also by the 'backdoor,' which takes place along the site’s provisional roads. To exploit the site’s surrounding vacancies, serpentine forms are used to break the site’s boundaries by projecting program across inactive back roads. The serpentine form is also used to distribute interior program."
+	},
+	{
+		"alt": "L-Shape Hotel: Concept",
+		"icon": "resources/images/architecture/narratives/no_occupancy/icons/ug4a_concept_icon.jpg",
+		"image": "resources/images/architecture/narratives/no_occupancy/ug4a_concept.jpg",
+		"group": "L-Shape Hotel",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Collaborator:</strong> L. Gaffney<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "This collaboration examines the architectural reprecussions  accommodating Fraternity Brothers in a conventional L-Shape hotel. Creating dialogue with fraternities and watching films (think Animal House, 1978), the research suggested a double-faced program: one to act as a public interface, and another to carry out in-house operations."
+	},
+	{
+		"alt": "L-Shape Hotel: Site Dialogue",
+		"icon": "resources/images/architecture/narratives/no_occupancy/icons/ug4a_site_dialogue_icon.jpg",
+		"image": "resources/images/architecture/narratives/no_occupancy/ug4a_site_dialogue.jpg",
+		"group": "L-Shape Hotel",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Collaborator:</strong> L. Gaffney<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "A dialogue between two fraternities: Delta and Omega. The research explores a network of checks-and-balances. Delta represents the insubordinate and uncouth. Omega exemplifies the urbane. Fitted to traditional campus heirarchy, Omega 'watches' over Delta."
+	},
+	{
+		"alt": "L-Shape Hotel: TMI Axons",
+		"icon": "resources/images/architecture/narratives/no_occupancy/icons/ug4a_TMI_axon_icon.jpg",
+		"image": "resources/images/architecture/narratives/no_occupancy/ug4a_TMI_axons.jpg",
+		"group": "L-Shape Hotel",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Collaborator:</strong> L. Gaffney<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Revealing 'Too Much Information' and exposing the program. Deltas know to 'go down' to access more private affairs, whereas Omegas know to 'go up.' Seemingly disparate, though sectional information linking the fraternities reveals a higher-order committee composing of both occupants."
+	},
+	{
+		"alt": "L-Shape Hotel: Field Condition",
+		"icon": "resources/images/architecture/narratives/no_occupancy/icons/ug4a_field_condition_icon.jpg",
+		"image": "resources/images/architecture/narratives/no_occupancy/ug4a_field_condition.jpg",
+		"group": "L-Shape Hotel",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Collaborator:</strong> L. Gaffney<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Concept applied to a field condition of conventional dwellings. Topography adjusted to recreate the heirarchy. Behavior of occupants (Delta and Omega) are translated into their respective dwelling configuration."
+	},
+	{
+		"alt": "Der Musikbund: Site Condition",
+		"icon": "resources/images/architecture/narratives/der_musikbund/icons/ug4b_site_condition_icon.jpg",
+		"image": "resources/images/architecture/narratives/der_musikbund/ug4b_site_condition.jpg",
+		"group": "Der Musikbund",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Many of the lots flanking the intersection at Fulton Avenue and Harlem Street in Harlem Park were pre-planned radially with courtyards safeguarded by row houses. Oblivious to long term circumstances, this was a rather permanent solution to account for the 1850 proliferation that began in Baltimore. To accommodate living demands required the demolition of some courtyards for more row houses. The trend continued 3 miles westward culminating at Edmondson. 1950 started the steady increase of urban abandonment from Baltimore to Edmondson. The transition from 1950 to 2005 nurtured abandonment until it was officially deemed as a crisis."
+	},
+	{
+		"alt": "Der Musikbund: Site Plan",
+		"icon": "resources/images/architecture/narratives/der_musikbund/icons/ug4b_site_plan_icon.jpg",
+		"image": "resources/images/architecture/narratives/der_musikbund/ug4b_site_plan.jpg",
+		"group": "Der Musikbund",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Derived from the Deutscher Werkbund, the Musikbund is a musician’s fellowship to reanimate Harlem Park. This is a seasonal program that requires ample buffering between very dissimilar programs, such as communal, recording, and living spaces. The row houses in Harlem Park are of the late Italianate style. Its classification is nothing more than historic merit. However, their double-bricked parti walls provide opportunities for acoustic buffering and spatial isolation. Other than that, the spaces are very stratified: a basement with three levels of living spaces and bathrooms on each distributed via wrapping stairwell. The proposal would break this stratification to reconfigure spaces necessary for the Musikbund."
+	},
+	{
+		"alt": "Der Musikbund: New Row House",
+		"icon": "resources/images/architecture/narratives/der_musikbund/icons/ug4b_row_house_icon.jpg",
+		"image": "resources/images/architecture/narratives/der_musikbund/ug4b_row_house.jpg",
+		"group": "Der Musikbund",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "A row house filled with conversation pits at every stairwell. By altering the number of treads before feeding into a platform, we get a variety of spatial heights. Larger programs such as performance spaces and public areas can take advantage of taller spaces. On the other hand, smaller programs such as collaborative spaces and private areas can assume shorter spaces. The whimsical arrangement of stairs displaces the section. Breaking parti walls enable audible and visual dialogues across all floors."
+	},
+	{
+		"alt": "Der Musikbund: Living Quarters",
+		"icon": "resources/images/architecture/narratives/der_musikbund/icons/ug4b_living_quarters_icon.jpg",
+		"image": "resources/images/architecture/narratives/der_musikbund/ug4b_living_quarters.jpg",
+		"group": "Der Musikbund",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Living quarters."
+	},
+	{
+		"alt": "Der Musikbund: Recording Studios",
+		"icon": "resources/images/architecture/narratives/der_musikbund/icons/ug4b_recording_studios_icon.jpg",
+		"image": "resources/images/architecture/narratives/der_musikbund/ug4b_recording_studios.jpg",
+		"group": "Der Musikbund",
+		"context" : "<strong>Studio:</strong> ARCH 442<br><strong>Professor:</strong> I. Hwang<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Recording studios."
+	},
+	{
+		"alt": "Teeter-Totter Table",
+		"icon": "resources/images/architecture/guinea_pigs/icons/teeter_table_icon.jpg",
+		"image": "resources/images/architecture/guinea_pigs/teeter_totter_table.jpg",
+		"group": "Guinea Pigs",
+		"context" : "<strong>Studio:</strong> ARCH 317<br><strong>Professor:</strong> E. Donnelly<br><strong>Collaborators:</strong> A. Burrell,<br> A. Ferriss, C. In,<br> O. Maher, J. Walter<br><strong>Year:</strong> Winter 2010<br>",
+		"caption": "A product of wood joinery and Alice in Wonderland."
+	},
+	{
+		"alt": "Chapel",
+		"icon": "resources/images/architecture/guinea_pigs/icons/chapel_icon.jpg",
+		"image": "resources/images/architecture/guinea_pigs/chapel.jpg",
+		"group": "Guinea Pigs",
+		"context" : "<strong>Studio:</strong> ARCH 415<br><strong>Professor:</strong> J. Kim<br><strong>Collaborators:</strong> V. Lovato,<br> C. Y. Pai<br><strong>Year:</strong> Winter 2010<br>",
+		"caption": "A light study inspired by Zumthor's Brother Claus Chapel."
+	},
+	{
+		"alt": "Translations",
+		"icon": "resources/images/architecture/guinea_pigs/icons/translations_icon.jpg",
+		"image": "resources/images/architecture/guinea_pigs/translations.jpg",
+		"group": "Guinea Pigs",
+		"context" : "<strong>Studio:</strong> ARCH 409<br><strong>Professor:</strong> E. Abrons<br><strong>Collaborators:</strong> J. Chemello,<br> D. Moffatt<br><strong>Year:</strong> Winter 2012<br>",
+		"caption": "Translations from drawing to digital fabrication."
+	},
+	{
+		"alt": "Flash Website: Wireframe",
+		"icon": "resources/images/ixd/websites/icons/flash_wireframe_icon.jpg",
+		"image": "resources/images/ixd/websites/flash_website/flash_wireframe.jpg",
+		"group": "Flash Website",
+		"context" : "<strong>Year:</strong> Summer 2012<br>",
+		"caption": "Wireframing a Flash website. Access project <a href='resources/images/ixd/websites/flash_website/flash_website.swf' target='_blank'><u>here</u></a>.",
+		"hidden" : "1"
+	},
+	{
+		"alt": "Flash Website",
+		"icon": "resources/images/ixd/websites/icons/flash_website_icon.jpg",
+		"image": "resources/images/ixd/websites/flash_website/flash_website.jpg",
+		"group": "Flash Website",
+		"context" : "<strong>Year:</strong> Summer 2012<br>",
+		"caption": "When Flash was a thing... Access project <a href='resources/images/ixd/websites/flash_website/flash_website.swf' target='_blank'><u>here</u></a>.",
+		"hidden" : "0"
+	},
+	{
+		"alt": "Experimental Website: Home",
+		"icon": "resources/images/ixd/websites/icons/experimental_website_icon.jpg",
+		"image": "resources/images/ixd/websites/experimental_website/experimental_website_home.jpg",
+		"group": "Experimental Website",
+		"context" : "<strong>Year:</strong> Winter 2013<br>",
+		"caption": "Early explorations in HTML / CSS / jQuery. Access project <a href='http://jacky-g.info/projects/portfolio_old/index2.html' target='_blank'><u>here</u></a>.",
+		"hidden" : "0"
+	},
+	{
+		"alt": "Experimental Website: About",
+		"icon": "resources/images/ixd/websites/icons/experimental_website_about_icon.jpg",
+		"image": "resources/images/ixd/websites/experimental_website/experimental_website_about.jpg",
+		"group": "Experimental Website",
+		"context" : "<strong>Year:</strong> Winter 2013<br>",
+		"caption": "Early explorations in HTML / CSS / jQuery. Access project <a href='http://jacky-g.info/projects/portfolio_old/about2.html' target='_blank'><u>here</u></a>.",
+		"hidden" : "1"
+	},
+	{
+		"alt": "Experimental Website: Experiments",
+		"icon": "resources/images/ixd/websites/icons/experimental_website_experiments_icon.jpg",
+		"image": "resources/images/ixd/websites/experimental_website/experimental_website_experiments.jpg",
+		"group": "Experimental Website",
+		"context" : "<strong>Year:</strong> Winter 2013<br>",
+		"caption": "Early explorations in HTML / CSS / jQuery. Access project <a href='http://jacky-g.info/projects/portfolio_old/experiments.html' target='_blank'><u>here</u></a>.",
+		"hidden" : "1"
+	},
+	{
+		"alt": "Distilled Website: Behavior 01",
+		"icon": "resources/images/ixd/websites/icons/distilled_website_01_icon.jpg",
+		"image": "resources/images/ixd/websites/distilled_website/distilled_website_01.jpg",
+		"group": "Distilled Website",
+		"context" : "<strong>Year:</strong> Fall 2014<br>",
+		"caption": "Distilled initial explorations into a more functional portfolio website. Access project <a href='http://jacky-g.info/projects/portfolio_old/index.html' target='_blank'><u>here</u></a>.",
+		"hidden" : "0"
+	},
+	{
+		"alt": "Distilled Website: Behavior 02",
+		"icon": "resources/images/ixd/websites/icons/distilled_website_02_icon.jpg",
+		"image": "resources/images/ixd/websites/distilled_website/distilled_website_02.jpg",
+		"group": "Distilled Website",
+		"context" : "<strong>Year:</strong> Fall 2014<br>",
+		"caption": "Distilled initial explorations into a more functional portfolio website. Access project <a href='http://jacky-g.info/projects/portfolio_old/index.html' target='_blank'><u>here</u></a>.",
+		"hidden" : "1"
+	},
+	{
+		"alt": "Responsive Mobile Website: Home",
+		"icon": "resources/images/ixd/websites/icons/mobile_website_icon.jpg",
+		"image": "resources/images/ixd/websites/responsive_mobile_website/mobile_website.jpg",
+		"group": "Responsive Mobile Website",
+		"context" : "<strong>Year:</strong> Winter 2015<br>",
+		"caption": "Explorations into a mobile-first website approach.",
+		"hidden" : "1"
+	},
+	{
+		"alt": "Responsive Mobile Website: Menu",
+		"icon": "resources/images/ixd/websites/icons/mobile_website_menu_icon.jpg",
+		"image": "resources/images/ixd/websites/responsive_mobile_website/mobile_website_menu.jpg",
+		"group": "Responsive Mobile Website",
+		"context" : "<strong>Year:</strong> Winter 2015<br>",
+		"caption": "Explorations into a mobile-first website approach.",
+		"hidden" : "0"
+	},
+	{
+		"alt": "Responsive Mobile Website: About",
+		"icon": "resources/images/ixd/websites/icons/mobile_website_about_icon.jpg",
+		"image": "resources/images/ixd/websites/responsive_mobile_website/mobile_website_about.jpg",
+		"group": "Responsive Mobile Website",
+		"context" : "<strong>Year:</strong> Winter 2015<br>",
+		"caption": "Explorations into a mobile-first website approach.",
+		"hidden" : "1"
+	}
+]

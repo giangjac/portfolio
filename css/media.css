@@ -1,0 +1,70 @@
+@media (min-width: 640px) {
+	#series img {
+		width: 6.5%;
+	}
+
+	#series a:nth-child(4) img {
+		margin-left: 0;
+	}	
+}
+
+@media (min-width: 800px) {
+	#main-logo {
+		top: 450px;
+		width: 400px;
+	}
+
+	#profile-top {
+		width: 185px;
+	}
+
+	#profile-bottom {
+		width: 482px;
+	}
+
+	#about-content {
+		width: 482px;
+		margin-top: 215px;
+	}
+
+	#timeline p {
+		font-size: 1em;
+	}
+
+	#gallery > a > img:first-child {
+		width: 15%;
+	}
+
+	h3 {
+		font-size: 1.75em;
+	}
+
+	.context {
+		font-size: 0.85em;
+	}
+
+	p.caption {
+		font-size: 1.25em;
+	}
+
+	sub {
+		font-size: 1em;
+	}
+	section {
+		margin: 1.25em 0 1.25em 0;
+	}
+}
+
+@media (min-width: 1600px) {
+	section {
+		margin: 2em 0 2em 0;
+	}
+
+	#group {
+		margin: 2em 0 0;
+	}
+
+	#gallery {
+		width: 1440px;
+	}
+}
