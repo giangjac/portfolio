@@ -125,7 +125,7 @@ $(document).ready(function() {
 				});
 
 				// Sets top of window to #showcase
-				$('a').scrollTop($('.clicked').position().top);
+				$('html, body').scrollTop($('.clicked').position().top);
 			});
 
 			// Hides loader
