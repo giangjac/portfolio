@@ -80,6 +80,9 @@ $(document).ready(function() {
 
 					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-image') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 
+					// Disable clicking showcase to bypass scrollTop
+					$('#showcase img').click(false);
+
 					// Adds .clicked styling to sub-icon
 					$('#group img').each(function() {
 						if ($(this).attr('data-content-index') === refIndex) {
