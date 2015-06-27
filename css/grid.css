@@ -34,12 +34,24 @@
 	width: 6.5%;
 }
 
+.grid-1b {
+	width: 10.75%;
+}
+
 .grid-2 {
 	width: 15%;
 }
 
+.grid-2b {
+	width: 19.25%;
+}
+
 .grid-3 {
 	width: 23.5%;
+}
+
+.grid-focus {
+	width: 27.75%;
 }
 
 .grid-4 {
