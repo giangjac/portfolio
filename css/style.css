@@ -140,6 +140,11 @@ h3 {
 	display: inline-block;
 }
 
+.group-accessed {
+	width: 1.25%;
+	border-color: #EE2A7B;
+}
+
 #series {
 	display: inline;
 	margin: 0 0 0 1em;
