@@ -15,7 +15,8 @@
 		"group": "Flash Website",
 		"context" : "<strong>Year:</strong> Summer 2012<br>",
 		"caption": "When Flash was a thing... Access project <a href='resources/images/ixd/websites/flash_website/flash_website.swf' target='_blank'><u>here</u></a>.",
-		"hidden" : "0"
+		"hidden" : "0",
+		"gridSize": "grid-3"
 	},
 	{
 		"alt": "Experimental Website: Home",
@@ -24,7 +25,8 @@
 		"group": "Experimental Website",
 		"context" : "<strong>Year:</strong> Winter 2013<br>",
 		"caption": "Early explorations in HTML / CSS / jQuery. Access project <a href='http://jacky-g.info/projects/portfolio_old/index2.html' target='_blank'><u>here</u></a>.",
-		"hidden" : "0"
+		"hidden" : "0",
+		"gridSize": "grid-2"
 	},
 	{
 		"alt": "Experimental Website: About",
@@ -51,7 +53,8 @@
 		"group": "Distilled Website",
 		"context" : "<strong>Year:</strong> Fall 2014<br>",
 		"caption": "Distilled initial explorations into a more functional portfolio website. Access project <a href='http://jacky-g.info/projects/portfolio_old/index.html' target='_blank'><u>here</u></a>.",
-		"hidden" : "0"
+		"hidden" : "0",
+		"gridSize": "grid-2"
 	},
 	{
 		"alt": "Distilled Website: Behavior 02",
@@ -78,7 +81,8 @@
 		"group": "Responsive Mobile Website",
 		"context" : "<strong>Year:</strong> Winter 2015<br>",
 		"caption": "Explorations into a mobile-first website approach.",
-		"hidden" : "0"
+		"hidden" : "0",
+		"gridSize": "grid-2"
 	},
 	{
 		"alt": "Responsive Mobile Website: About",
