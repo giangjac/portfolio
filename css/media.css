@@ -31,9 +31,9 @@
 		font-size: 1em;
 	}
 
-	#gallery > a > img:first-child {
+	/*#gallery > a > img:first-child {
 		width: 15%;
-	}
+	}*/
 
 	h3 {
 		font-size: 1.75em;
@@ -50,9 +50,22 @@
 	sub {
 		font-size: 1em;
 	}
+
 	section {
 		margin: 1.25em 0 1.25em 0;
 	}
+
+	.icon {
+		margin: 20px;
+	}
+
+}
+
+@media (min-width: 950px) {
+	#gallery {
+		width: 950px;
+	}
+
 }
 
 @media (min-width: 1600px) {
@@ -62,9 +75,5 @@
 
 	#group {
 		margin: 2em 0 0;
-	}
-
-	#gallery {
-		width: 1440px;
 	}
 }
