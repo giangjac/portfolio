@@ -31,7 +31,8 @@ $(document).ready(function() {
 					'" data-content-context="' + content.context +
 					'" data-content-caption="' + content.caption +
 					'" data-content-hidden="' + content.hidden + 
-					'" data-content-position-top="" class="' + content.gridSize + ' icon"></a>';
+					'" data-content-position-top="" class="' + content.gridSize + 
+					' icon"></a>';
 			});
 			$('#gallery').append(statusHTML);
 
