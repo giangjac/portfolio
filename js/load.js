@@ -61,6 +61,10 @@ $(document).ready(function() {
 				var refIndex = $(this).attr('id');
 				var displayGroupHTML = '<div id="group" class="grid-12"><sub class="caption"><strong>In this series...</strong></sub><div id="series">';
 
+				if ($(this).hasClass('group-accessed')) {
+					$(this).removeClass('group-accessed');
+				}
+
 				// If clicked icon doesn't have .clicked class, add class and full content after icon
 				if (!$(this).hasClass('clicked')) {
 					$(this).addClass('clicked');
@@ -81,6 +85,14 @@ $(document).ready(function() {
 					displayGroupHTML += '</div></div>';
 
 					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-image') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+
+				// If displayed sub-icons matches icons, remove icons
+				$('#gallery > a > img').not($(this)).each(function() {
+					if ($(this).attr('data-content-group') === selectedGroup) {
+						$(this).addClass('group-accessed');
+					} else
+					$(this).removeClass('group-accessed');
+				});
 
 					// Adds .clicked styling to sub-icon
 					$('#group img').each(function() {
