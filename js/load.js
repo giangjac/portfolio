@@ -61,6 +61,7 @@ $(document).ready(function() {
 				var refIndex = $(this).attr('id');
 				var displayGroupHTML = '<div id="group" class="grid-12"><sub class="caption"><strong>In this series...</strong></sub><div id="series">';
 
+				// Maintain size of clicked icon
 				if ($(this).hasClass('group-accessed')) {
 					$(this).removeClass('group-accessed');
 				}
@@ -86,7 +87,7 @@ $(document).ready(function() {
 
 					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-image') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 
-				// If displayed sub-icons matches icons, remove icons
+				// Apply class to icons in project group, except for clicked icon
 				$('#gallery > a > img').not($(this)).each(function() {
 					if ($(this).attr('data-content-group') === selectedGroup) {
 						$(this).addClass('group-accessed');
