@@ -97,9 +97,9 @@ h3 {
 #showcase img {
 	border-radius: 48.54px;
 	border: solid medium #FFF;
-	vertical-align: top;
+	vertical-align: middle;
 	padding: 5px;
-	margin: 5px;
+	margin: 10px;
 }
 
 .icon.hover:hover,
