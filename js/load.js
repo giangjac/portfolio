@@ -26,7 +26,7 @@ $(document).ready(function() {
 					'" src="' + content.icon + 
 					'" alt="' + content.alt +
 					'" data-content-icon="' + content.icon +
-					'" data-content-image="' + content.image +
+					'" data-content-media="' + content.media +
 					'" data-content-group="' + content.group + 
 					'" data-content-context="' + content.context +
 					'" data-content-caption="' + content.caption +
@@ -76,8 +76,8 @@ $(document).ready(function() {
 							displayGroupHTML += '<a href="#arrow" title="' + 
 								$(this).attr('alt') + '"><img src="' + 
 								$(this).attr('data-content-icon') + '" alt="' + 
-								$(this).attr('alt') + '" data-content-image="' +
-								$(this).attr('data-content-image') + '" data-content-context="' +
+								$(this).attr('alt') + '"data-content-media="' +
+								$(this).attr('data-content-media') + '" data-content-context="' +
 								$(this).attr('data-content-context') + '" data-content-caption="' +
 								$(this).attr('data-content-caption') + '" data-content-index="' + 
 								$(this).attr('id') + '"class="grid-2 sub-icon"></a>';
@@ -85,7 +85,14 @@ $(document).ready(function() {
 					});
 					displayGroupHTML += '</div></div>';
 
-					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-image') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+					// Constructs html for video or image
+					var mediaType = $(this).attr('data-content-media');
+					var n = mediaType.indexOf('.mp4');
+					if (n !== -1) {
+						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><video class="centered" autoplay loop><source src="' + $(this).attr('data-content-media') + '" type="video/mp4"></video></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+					} else {
+					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-media') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+					}
 
 				// Apply class to icons in project group, except for clicked icon
 				$('#gallery > a > img').not($(this)).each(function() {
@@ -109,8 +116,16 @@ $(document).ready(function() {
 				// Click events for sub-icons
 				$('.sub-icon').on('click', function() {
 					var refIndex = $(this).attr('data-content-index');
-					var newSrc = $(this).attr('data-content-image');
-					$('#showcase img').attr('src', newSrc);
+					var newSrc = $(this).attr('data-content-media');
+					//var n = newSrc.indexOf('.mp4');
+					
+					// Figure out feature to change HTML media construct between sub-icons
+					// if (n !== -1) {
+					// 	$('#showcase img').remove();
+					// } else {
+					// 	$('#showcase video').remove();
+					 	$('#showcase img').attr('src', newSrc);
+					// }
 					$(this).addClass('sub-icon-clicked');
 					$('#series img').not($(this)).removeClass('sub-icon-clicked');
 					$('p.caption').html($(this).attr('data-content-caption'));
