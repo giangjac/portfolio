@@ -11,9 +11,10 @@
 	{	"alt": "Either / Or: Diptych",
 		"icon": "resources/images/ixd/experiments/icons/diptych_icon.jpg",
 		"media": "resources/images/ixd/experiments/diptych.jpg",
+		"group": "Experiments",
 		"context" : "<strong>Year:</strong> Fall 2010<br>",
 		"caption": "Projected illusions with lead on mylar. Superimposed on print.",
-		"hidden" : "1",
+		"hidden" : "0",
 		"gridSize" : "grid-2b"
 	},
 	{
