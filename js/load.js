@@ -117,15 +117,19 @@ $(document).ready(function() {
 				$('.sub-icon').on('click', function() {
 					var refIndex = $(this).attr('data-content-index');
 					var newSrc = $(this).attr('data-content-media');
-					//var n = newSrc.indexOf('.mp4');
+					var n = newSrc.indexOf('.mp4');
 					
-					// Figure out feature to change HTML media construct between sub-icons
-					// if (n !== -1) {
-					// 	$('#showcase img').remove();
-					// } else {
-					// 	$('#showcase video').remove();
-					 	$('#showcase img').attr('src', newSrc);
-					// }
+					// Constructs html for video or image
+					if (n !== -1) {
+						$('#showcase img').remove();
+						$('#showcase').append('<video class="centered" autoplay loop><source src="' + newSrc + '" type="video/mp4"></video>')
+					} else {
+						$('#showcase video').remove();
+						$('#showcase img').not($(this)).remove();
+					 	$('#showcase').append('<img class="centered" src="' + newSrc + '"></div>');
+					}
+					
+					// $('#showcase').attr('src', newSrc);
 					$(this).addClass('sub-icon-clicked');
 					$('#series img').not($(this)).removeClass('sub-icon-clicked');
 					$('p.caption').html($(this).attr('data-content-caption'));
