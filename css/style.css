@@ -94,7 +94,8 @@ h3 {
 }
 
 .icon,
-#showcase img {
+#showcase img,
+#showcase video {
 	border-radius: 48.54px;
 	border: solid medium #FFF;
 	vertical-align: middle;
@@ -211,7 +212,8 @@ h3 {
 	height: auto;
 }
 
-#showcase img {
+#showcase img,
+#showcase video {
 	width: 100%;
 	border: solid medium #EE2A7B;
 	margin: 0;
