@@ -90,12 +90,13 @@ $(document).ready(function() {
 					// Constructs html for video or image
 					var mediaType = $(this).attr('data-content-media');
 					var n = mediaType.indexOf('.mp4');
+
 					if (n !== -1) {
-						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><video class="centered" controls loop><source src="' + $(this).attr('data-content-media') + '" type="video/mp4"></video></div>' + displayGroupHTML);
+						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><video class="centered" controls loop><source src="' + mediaType + '" type="video/mp4"></video></div>' + displayGroupHTML);
 						$(toShowcase).parent().after('<section class="grid-8 caption-container"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4 context-container"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 					} else {
-					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-media') + '"></div>' + displayGroupHTML);
-					 $(toShowcase).parent().after('<section class="grid-8 caption-container"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4 context-container"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + mediaType + '"></div>' + displayGroupHTML);
+						$(toShowcase).parent().after('<section class="grid-8 caption-container"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4 context-container"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 					}
 
 				// Apply class to icons in project group, except for clicked icon
