@@ -16,8 +16,10 @@ $(document).ready(function() {
 
 	// Load content on page load
 	var url = "../portfolio/data/all.json";
+	var objectState = {};
 	function filterGallery(url) {	
 		$.getJSON(url, function(response) {
+			// history.pushState(objectState, 'Home', 'index');
 			var statusHTML = '';
 			$.each(response, function(index, content) {
 				statusHTML += '<a href="#' + index + 
@@ -89,9 +91,11 @@ $(document).ready(function() {
 					var mediaType = $(this).attr('data-content-media');
 					var n = mediaType.indexOf('.mp4');
 					if (n !== -1) {
-						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><video class="centered" controls loop><source src="' + $(this).attr('data-content-media') + '" type="video/mp4"></video></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+						$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><video class="centered" controls loop><source src="' + $(this).attr('data-content-media') + '" type="video/mp4"></video></div>' + displayGroupHTML);
+						$(toShowcase).parent().after('<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 					} else {
-					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-media') + '"></div>' + displayGroupHTML + '<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
+					$(toShowcase).after('<img id="arrow" class="grid-1 centered" src="resources/logo/arrow_down.svg">', '<div id="title" class="grid-12"><h3>' + $(this).attr('alt') + '</h3></div><div id="showcase" class="grid-12 centered"><img class="centered" src="' + $(this).attr('data-content-media') + '"></div>' + displayGroupHTML);
+					 $(toShowcase).parent().after('<section class="grid-8"><p class="caption">' + $(this).attr('data-content-caption') + '</p></section><section class="grid-4"><p class="context">' + $(this).attr('data-content-context') + '</p></section>');
 					}
 
 				// Apply class to icons in project group, except for clicked icon
@@ -257,6 +261,7 @@ $(document).ready(function() {
 			$(this).siblings('ul').slideUp('fast');
 			$('#gallery a').remove();
 			$('#gallery').load('about.html', function() {
+				// history.pushState(objectState, 'About', "about");
 				if (!window.mobilecheck()) {
 					jQuery.fx.interval = 5;
 					$('#timeline a img').addClass('hover');
