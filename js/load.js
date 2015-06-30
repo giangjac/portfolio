@@ -33,7 +33,7 @@ $(document).ready(function() {
 					'" data-content-context="' + content.context +
 					'" data-content-caption="' + content.caption +
 					'" data-content-hidden="' + content.hidden + 
-					'" data-content-position-top="" class="' + content.gridSize + 
+					'" class="' + content.gridSize + 
 					' icon"></a>';
 			});
 			$('#gallery').append(statusHTML);
@@ -155,13 +155,6 @@ $(document).ready(function() {
 					$(this).next('#arrow').remove();
 					$(this).parent().next('.caption-container').remove();
 					$(this).parent().next('.context-container').remove();
-				});
-
-				// For scrollTop to work: maintain yPos of icons after #showcase div
-				var showcaseHeight = $('#showcase').height();
-				$('.afterShowcase').each(function() {
-					var newPosition = $(this).attr('data-content-position-top') - showcaseHeight;
-					$(this).attr('data-content-position-top', newPosition);
 				});
 
 				// Sets top of window to #showcase
